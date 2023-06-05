@@ -1,0 +1,100 @@
+body {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: #303030;
+    
+}
+/* Cabeçalho Da landing Page*/ 
+    header {
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+
+        height: 250px;
+        margin-top: 180px;
+        margin-left: 45px; 
+    }
+    header h1 {
+        font-size: 60px;
+    }
+
+/* Menu Navegações */
+    nav {
+        
+        background: #F5F5F5;
+        color: #000000;
+        font-family: 'Inter', sans-serif;
+
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+
+        }
+        
+    nav Strong {
+        font-size: 40px;
+    }
+
+/* Sessão da Historia e experiencia  */
+    #Info {
+        background-color: #F9F9F9;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+    } 
+
+    #Experiencia {
+        font-family: 'Inter', sans-serif;
+    }
+
+
+    img {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        
+    }
+
+/* estilização Formulario para se preecher */
+    #formulario {    
+        text-align: center; 
+        color: #ffffff;
+        font-size: 35px;
+
+    }
+
+    input {
+        margin: 25px;
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;  
+        border: 0px;
+        padding-left: 25px;
+    }
+
+/* estilização Button */
+    button {
+        background-color: #C07212;
+        color: #ffffff;
+        font-size: 20px;
+
+        border: 0px;
+        border-radius: 10px;
+        height: 50px;
+        width: 250px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #c07512a2;
+        color: #00000088;
+        transform: translatey(-7px);
+        box-shadow: 0px 10px 20px 0px #f5f5f5c9;
+        transition-duration: 0.5s;
+    }
